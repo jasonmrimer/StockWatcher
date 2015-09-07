@@ -191,7 +191,6 @@ public class StockWatcher implements EntryPoint {
 	    	   if (caught instanceof DelistedException) {
 	    		   details = "Company '" + ((DelistedException)caught).getSymbol() + "' was delisted";
 	    		   System.out.println(details);
-	    		   Window.alert(details);
 	    	   }
 	    	   
 	    	   errorMsgLabel.setText("Error: " + details);
