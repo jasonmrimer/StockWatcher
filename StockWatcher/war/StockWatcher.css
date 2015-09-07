@@ -47,7 +47,9 @@ body {
 .negativeChange {
 	color: red;
 }
-	
+.errorMessage {
+	color: red;
+}	
 /* root panel */
 .rootPanelStyle {
 	background-color: #999999;
